@@ -46,7 +46,7 @@ factorial_ n =
 
 {-| Is result valid?
 
-    isValidResult (Err "some error") == True
+    isValidResult (Err "some error") == False
 
 -}
 isValidResult : Result error value -> Bool

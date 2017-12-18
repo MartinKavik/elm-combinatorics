@@ -10,7 +10,7 @@ module Combinatorics.Lists
 
 {-| **get* functions** - generate the list of all possible comb. / permut. / variat.
 
-All functions return `Ok list` or `Err error`.
+All functions return `Ok List` or `Err String`.
 
 Error example: `"getVariations limitation: k >= 0, your k = -2"`
 

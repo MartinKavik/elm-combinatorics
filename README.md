@@ -1,9 +1,9 @@
-## Combinations, Permutations and Variations in Elm language
+## Combinations, Permutations and Variations in Elm
 
-Modules and functions:
+Modules and their functions:
 
 **Combinatorics.Counts**
-```
+```elm
 countVariationsWithReps 2 3 == Ok 9
 
 countVariations 2 3 == Ok 6
@@ -18,7 +18,7 @@ countCombinations 2 4 == Ok 6
 ```
 
 **Combinatorics.Lists**
-```
+```elm
 getVariationsWithReps 2 [ "a", "b" ] == Ok [["a","a"],["a","b"],["b","a"],["b","b"]]
 
 getVariations 2 [ "a", "b" ] == Ok [["a","b"],["b","a"]]
@@ -33,7 +33,7 @@ getCombinations 2 [ "a", "b", "c" ] == Ok [["a","b"],["a","c"],["b","c"]]
 ```
 
 **Combinatorics.Helpers**
-```
+```elm
 factorial 5 == Ok 120
 
 isValidResult (Err "some error") == False

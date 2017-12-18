@@ -10,7 +10,7 @@ module Combinatorics.Counts
 
 {-| **count* functions** - calculate the number of all possible comb. / permut. / variat.
 
-All functions return `Ok number` or `Err error`.
+All functions return `Ok Int` or `Err String`.
 
 Error example: `"countVariations limitation: k >= 0, your k = -2"`
 
@@ -99,7 +99,7 @@ countVariations_ k n =
 
 Limitations: kx >= 0
 
-Formula: P'(k1,k2,...,kn) = (k1+k2+...,+kn)! / k1! * k2! * ,..., * kn!
+Formula: P'(k1,k2,...,kn) = (k1+k2+,...,+kn)! / k1! . k2! . ,..., . kn!
 
     countPermutationsWithReps [ 2, 2 ] == Ok 6
 
