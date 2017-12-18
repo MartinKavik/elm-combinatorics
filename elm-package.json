@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "summary": "Combinatorics - Combinations, Permutations and Variations",
+    "repository": "https://github.com/MartinKavik/elm-combinatorics.git",
+    "license": "MIT",
+    "source-directories": [
+        ".",
+        "src"
+    ],
+    "exposed-modules": [
+        "Combinatorics.Counts",
+        "Combinatorics.Helpers",
+        "Combinatorics.Lists"
+    ],
+    "dependencies": {
+        "elm-community/list-extra": "7.0.0 <= v < 8.0.0",
+        "elm-lang/core": "5.1.1 <= v < 6.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}
